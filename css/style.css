@@ -1,0 +1,96 @@
+
+/* Main */
+body {
+    background-image: url('../images/anders-jilden-PXdBkNF8rlk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f1f1f1;
+    bottom: 0;
+    position: absolute;
+    height:5%;
+    width: 100%;
+}
+
+#headerTitle {
+    text-align: center;
+    color: rgb(69, 69, 255);
+    font-family: 'IceFont', sans-serif;
+    font-size: 5em;
+    margin:auto;
+}
+
+
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    overflow: hidden;
+    background-color: none;
+    justify-content: center;
+    display:flex;
+    
+  }
+  
+  ul li {
+    float:left;
+    
+    
+  }
+
+  ul li#home{
+    background-image: url('../images/icons/iceberg_2.png');
+    background-position: center ;
+    background-size: 85%;
+    background-repeat:no-repeat;
+    opacity: 0.8;
+  }
+
+  ul li#pictures {
+    background-image: url('../images/icons/iceberg_1.png');
+    background-position: center;
+    background-size: 85%;
+    background-repeat:no-repeat;
+  }
+
+  ul li#about {
+    background-image: url('../images/icons/iceberg_3.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat:no-repeat;
+  }
+  
+  ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  ul li a:hover {
+    background-color: #111111;
+  }
+
+
+
+
+
+@font-face {
+    font-family: 'IceFont';
+    src: url('../fonts/Melting\ Ice.ttf') format('truetype');
+  }
+
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
